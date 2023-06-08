@@ -1,5 +1,4 @@
-
-.lab{
+.lab {
   background-color: #110e1a;
   height: 130vh;
   display: flex;
@@ -42,7 +41,7 @@
   width: 1px;
 }
 
-.lab_flex{
+.lab_flex {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -51,4 +50,34 @@
 
 .lab_vl_box {
   margin-left: 235px;
+}
+
+@media screen and (max-width: 900px) {
+  .lab {
+    height: 200vh;
+  }
+  .lab_vl_box {
+    margin-left: 20px;
+  }
+
+  .lab_p {
+    width: 400px;
+  }
+  .lab_flex {
+    flex-direction: column;
+  }
+  .lab_title_codi {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .lab_p {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .lab_p {
+    width: 240px;
+  }
 }

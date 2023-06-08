@@ -41,7 +41,7 @@
 }
 .about_vl {
   border-left: 2px solid #5918df;
-  height: 1100px;
+  height: 1000px;
   width: 1px;
 }
 .about_circle {
@@ -102,4 +102,30 @@
 }
 .row6_dob{
   color: #e39d24;
+}
+.mob_number_row{
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .mob_number_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .about{
+    height: 320vh;
+  }
+  .about_h1 {
+    margin-left: 20px;
+  }
+  .about_box{
+    margin-left: 0px;
+  }
+  .about_vl_mobile{
+    border-left: 2px solid #5918df;
+    height: 240px;
+    width: 1px;
+  }
 }

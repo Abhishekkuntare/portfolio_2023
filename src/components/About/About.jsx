@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { numbers } from "../../constants/number";
+import { mob_numbers, numbers } from "../../constants/number";
 
 const About = () => {
   return (
@@ -14,10 +14,19 @@ const About = () => {
               {numbers.map((elem, i) => (
                 <span className="numbers">{elem.id}</span>
               ))}
+              {""}
+              <div className="mob_number_row">
+                {mob_numbers.map((elem, i) => (
+                  <span className="numbers">{elem.id}</span>
+                ))}
+              </div>
             </div>
             <div>
               <div className="about_circle" />
               <div className="about_vl" />
+              <div className="about_vl_mobile" />
+              <div className="about_vl_mobile" />
+              <div className="about_vl_mobile" />
             </div>
           </div>
 

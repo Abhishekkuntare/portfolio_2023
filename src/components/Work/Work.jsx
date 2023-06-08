@@ -94,6 +94,8 @@ const Works = () => {
           <div className="work_vl" />
           <div className="work_vl" />
           <div className="work_vl" />
+          <div className="work_vl_mobile" />
+          <div className="work_vl_mobile" />
         </div>
         <div className="work_box">
           <div id="mobile" />

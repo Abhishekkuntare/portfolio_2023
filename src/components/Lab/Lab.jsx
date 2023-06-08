@@ -41,7 +41,7 @@ const Lab = () => {
             Check out my other projects like, open source projects, animations
             web apps, Mobile Apps, archived stuff and more.
           </p>
-          <h1 className="lab_title">Coding Platform</h1>
+          <h1 className="lab_title lab_title_codi">Coding Platform</h1>
           <Ul>
             {fakeData.map((elem, i) => (
               <a target="_blank" href={elem.link}>

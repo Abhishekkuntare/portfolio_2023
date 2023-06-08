@@ -4,6 +4,11 @@ export const Container = styled.section`
   margin-bottom: 100px;
   margin-left: 20px;
   margin-top: 20px;
+  @media (max-width: 900px) {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
   .cursor {
     width: 25px;
     height: 25px;
@@ -30,8 +35,16 @@ export const Ul = styled.ul`
   margin: auto;
   position: relative;
   top: 40px;
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+  }
 
   li {
+    @media (max-width: 900px) {
+      width: 300px;
+      font-size: 15px;
+    }
     width: 400px;
     font-family: "Press Start 2P", cursive;
     color: rgb(255, 255, 255);
@@ -54,6 +67,9 @@ export const Ul = styled.ul`
       }
     }
     .img-cont {
+      @media (max-width: 900px) {
+        display: none;
+      }
       position: absolute;
       width: 430px;
       transform: translateX(100px) scale(0.8);

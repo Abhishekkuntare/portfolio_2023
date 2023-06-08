@@ -2,12 +2,11 @@
   display: flex;
   background-color: #1a1526;
 }
-.mobile_work{
+.mobile_work {
   display: flex;
   background-color: #1a1526;
-
 }
-.mobile_main{
+.mobile_main {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -32,7 +31,7 @@
   font-family: "M PLUS Rounded 1c", sans-serif;
   z-index: 10;
 }
-.work_box{
+.work_box {
   margin-bottom: 10px;
 }
 
@@ -132,12 +131,11 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.work_projects_card{
+.work_projects_card {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .work_circle {
@@ -154,6 +152,91 @@
   width: 1px;
 }
 
-.mobile_div{
-  display: flex;align-items: center;
+.mobile_div {
+  display: flex;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 817px) {
+  .work_vl_box {
+    margin-left: 20px;
+  }
+  #web:before {
+    font-size: 100px;
+  }
+  .project_card_img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .work_vl_box {
+    margin-left: 20px;
+  }
+  .work_vl {
+    height: 323px;
+  }
+  #web:before {
+    font-size: 130px;
+  }
+  #mobile:before {
+    font-size: 130px;
+  }
+  .project_card_img {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .project_card {
+    width: 330px;
+    margin-right: 0px;
+    height: 270px;
+  }
+  .work_projects {
+    justify-content: center;
+  }
+  .work_projects_card {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  #mobile:before {
+    font-size: 90px;
+  }
+  #web:before {
+    font-size: 90px;
+  }
+  .work_projects {
+    width: 300px;
+  }
+  .mobile_card {
+    margin-left: 10px;
+  }
+
+  .work_vl_mobile {
+    height: 250px;
+    border-left: 2px solid #5918df;
+  }
+}
+@media screen and (max-width: 363px) {
+  #mobile:before {
+    font-size: 61px;
+  }
+  .mobile_img {
+    height: 350px;
+    width: 239px;
+  }
+  #web:before {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 341px) {
+  .project_card_img {
+    width: 260px;
+  }
+  .mobile_img {
+    width: 226px;
+  }
 }

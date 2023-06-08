@@ -46,3 +46,11 @@ font-family: 'Charmonman', cursive;
   height: 470px;
   width: 1px;
 }
+
+
+@media screen and (max-width: 817px) {
+  .start {
+margin-left: 20px;
+margin-top: 50px;
+  }
+}
