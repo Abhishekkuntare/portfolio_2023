@@ -113,9 +113,6 @@ export const numbers = [
   {
     id: "38",
   },
-];
-
-export const mob_numbers = [
   {
     id: "39",
   },
@@ -134,6 +131,27 @@ export const mob_numbers = [
   {
     id: "44",
   },
+];
+
+export const mob_numbers = [
+  // {
+  //   id: "39",
+  // },
+  // {
+  //   id: "40",
+  // },
+  // {
+  //   id: "41",
+  // },
+  // {
+  //   id: "42",
+  // },
+  // {
+  //   id: "43",
+  // },
+  // {
+  //   id: "44",
+  // },
   {
     id: "45",
   },
@@ -214,5 +232,17 @@ export const mob_numbers = [
   },
   {
     id: "71",
+  },
+  {
+    id: "72",
+  },
+  {
+    id: "73",
+  },
+  {
+    id: "74",
+  },
+  {
+    id: "75",
   },
 ];

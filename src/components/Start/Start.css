@@ -51,6 +51,6 @@ font-family: 'Charmonman', cursive;
 @media screen and (max-width: 817px) {
   .start {
 margin-left: 20px;
-margin-top: 50px;
+margin-top: 50px; 
   }
 }

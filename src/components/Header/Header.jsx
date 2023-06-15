@@ -68,21 +68,31 @@ const Header = () => {
 
         <div className="header_main">
           <ol className="header_options">
-            <ul style={{ color: start }} onClick={() => setColor1()}>
-              Start <span className="header_options_01">{"/>"}</span>
-            </ul>
-            <ul style={{ color: work }} onClick={() => setColor2()}>
-              Work <span className="header_options_01">{"/>"}</span>
-            </ul>
-            <ul style={{ color: lab }} onClick={() => setColor3()}>
-              Lab <span className="header_options_01">{"/>"}</span>
-            </ul>
-            <ul style={{ color: about }} onClick={() => setColor4()}>
-              About <span className="header_options_01">{"/>"}</span>
-            </ul>
-            <ul style={{ color: contact }} onClick={() => setColor5()}>
-              Contact <span className="header_options_01">{"/>"}</span>
-            </ul>
+            <a href="#start">
+              <ul style={{ color: start }} onClick={() => setColor1()}>
+                Start <span className="header_options_01">{"/>"}</span>
+              </ul>
+            </a>
+            <a href="#work">
+              <ul style={{ color: work }} onClick={() => setColor2()}>
+                Work <span className="header_options_01">{"/>"}</span>
+              </ul>
+            </a>
+            <a href="#lab">
+              <ul style={{ color: lab }} onClick={() => setColor3()}>
+                Lab <span className="header_options_01">{"/>"}</span>
+              </ul>
+            </a>
+            <a href="#about">
+              <ul style={{ color: about }} onClick={() => setColor4()}>
+                About <span className="header_options_01">{"/>"}</span>
+              </ul>
+            </a>
+            <a href="#contact">
+              <ul style={{ color: contact }} onClick={() => setColor5()}>
+                Contact <span className="header_options_01">{"/>"}</span>
+              </ul>
+            </a>
           </ol>
         </div>
         <div className="header_menu">

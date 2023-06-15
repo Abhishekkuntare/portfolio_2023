@@ -49,21 +49,65 @@ const MobileMenu = ({ open, setOpen }) => {
   };
   return (
     <div className="mobileMenu">
-      <ul style={{ color: start }} onClick={() => setColor1()}>
-        Start <span className="header_options_01">{"/>"}</span>
-      </ul>
-      <ul style={{ color: work }} onClick={() => setColor2()}>
-        Work <span className="header_options_01">{"/>"}</span>
-      </ul>
-      <ul style={{ color: lab }} onClick={() => setColor3()}>
-        Lab <span className="header_options_01">{"/>"}</span>
-      </ul>
-      <ul style={{ color: about }} onClick={() => setColor4()}>
-        About <span className="header_options_01">{"/>"}</span>
-      </ul>
-      <ul style={{ color: contact }} onClick={() => setColor5()}>
-        Contact <span className="header_options_01">{"/>"}</span>
-      </ul>
+      <a href="#start">
+        <ul
+          style={{ color: start }}
+          onClick={() => {
+            setColor1();
+            setOpen(false);
+          }}
+        >
+          Start <span className="header_options_01">{"/>"}</span>
+        </ul>
+      </a>
+      <a href="#work">
+        {" "}
+        <ul
+          style={{ color: work }}
+          onClick={() => {
+            setColor2();
+            setOpen(false);
+          }}
+        >
+          Work <span className="header_options_01">{"/>"}</span>
+        </ul>
+      </a>
+      <a href="#lab">
+        {" "}
+        <ul
+          style={{ color: lab }}
+          onClick={() => {
+            setColor3();
+            setOpen(false);
+          }}
+        >
+          Lab <span className="header_options_01">{"/>"}</span>
+        </ul>
+      </a>
+      <a href="#about">
+        {" "}
+        <ul
+          style={{ color: about }}
+          onClick={() => {
+            setColor4();
+            setOpen(false);
+          }}
+        >
+          About <span className="header_options_01">{"/>"}</span>
+        </ul>
+      </a>
+      <a href="#contact">
+        {" "}
+        <ul
+          style={{ color: contact }}
+          onClick={() => {
+            setColor5();
+            setOpen(false);
+          }}
+        >
+          Contact <span className="header_options_01">{"/>"}</span>
+        </ul>
+      </a>
     </div>
   );
 };

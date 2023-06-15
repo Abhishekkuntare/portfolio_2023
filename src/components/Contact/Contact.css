@@ -24,7 +24,8 @@
   width: 10px;
   color: #5918df;
   background-color: #5918df;
-  margin-left: -4px;
+  margin-bottom: -15px;
+  margin-left: -35px;
 }
 .contact_vl {
   border-left: 2px solid #5918df;
@@ -35,7 +36,7 @@
   margin-left: 235px;
 }
 .contact_h1 {
-  margin-left: 20px;
+  margin-left: 0px;
   margin-top: 10px;
   color: #988e9f;
   font-size: 18px;
@@ -151,7 +152,7 @@
 
 @media screen and (max-width: 900px) {
   .contact_vl_box {
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .contact_options {
     flex-direction: column;
@@ -159,6 +160,11 @@
   }
   .btn {
     width: 320px;
+  }
+  .contact_circle
+  {
+    margin-bottom: -15px;
+    margin-left: -33px;
   }
 }
 
@@ -171,15 +177,14 @@
   }
   .btn {
     width: 321px;
+    margin-left: 10px;
   }
-  .contact_box {
-    flex-direction: column;
-  }
+
   .contact_h1 {
-    margin-left: 0px;
+    margin-left: 28px;
   }
   .constact_footer {
-    margin-left: 20px;
+    margin-left: 38px;
   }
   .contact_h2_box
   {

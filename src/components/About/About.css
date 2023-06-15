@@ -1,6 +1,6 @@
 .about {
   background-color: #14121c;
-  height: 158vh;
+  height: 164vh;
 }
 
 .about_box {
@@ -41,7 +41,7 @@
 }
 .about_vl {
   border-left: 2px solid #5918df;
-  height: 1000px;
+  height: 1090px;
   width: 1px;
 }
 .about_circle {
@@ -50,7 +50,8 @@
   width: 10px;
   color: #5918df;
   background-color: #5918df;
-  margin-left: -4px;
+  margin-left: -14px;
+  margin-bottom: -10px;
 }
 .aboutdata {
   margin-left: 20px;
@@ -115,17 +116,24 @@
     margin-top: 25px;
   }
   .about{
-    height: 320vh;
+    height: 321vh;
   }
   .about_h1 {
-    margin-left: 20px;
+    margin-left: 33px;
   }
   .about_box{
     margin-left: 0px;
   }
   .about_vl_mobile{
     border-left: 2px solid #5918df;
-    height: 240px;
+    height: 275px;
     width: 1px;
   }
+  .about_circle
+{
+  margin-left: -17px;
+}
+.number_row{
+  margin-left: 6px;
+}
 }

@@ -1,31 +1,25 @@
-import img4 from "../assets/img4.avif";
-import img5 from "../assets/img5.avif";
-import img6 from "../assets/img6.avif";
+import img1 from "../assets/app/img1.png";
+import img2 from "../assets/app/img2.jpg";
+import img3 from "../assets/app/img3.jpg";
 
 const apps = [
   {
-    img: img4,
-    id: 0,
-    name: "Car Rent",
-    link: "https://abhishekkuntare0210.vercel.app/",
+    img: img1,
+    id: 1,
+    name: "CRYPTO-PRONEF",
+    link: "https://abhishekkuntare.vercel.app/androidWorks",
   },
   {
-    img: img5,
-    id: 0,
-    name: "Car Rent",
-    link: "https://abhishekkuntare0210.vercel.app/",
+    img: img2,
+    id: 2,
+    name: "TO-DO-APP",
+    link: "https://abhishekkuntare.vercel.app/androidWorks",
   },
   {
-    img: img6,
-    id: 0,
-    name: "Car Rent",
-    link: "https://abhishekkuntare0210.vercel.app/",
-  },
-  {
-    img: img4,
-    id: 0,
-    name: "Car Rent",
-    link: "https://abhishekkuntare0210.vercel.app/",
+    img: img3,
+    id: 3,
+    name: "Foodie provides information",
+    link: "https://abhishekkuntare.vercel.app/androidWorks",
   },
 ];
 export default apps;

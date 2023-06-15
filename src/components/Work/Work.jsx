@@ -3,6 +3,8 @@ import Tilt from "react-tilt";
 import "./Work.css";
 import projects from "../../constants/index";
 import mobile from "../../constants/mobile";
+import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ img, id, name, link }) => {
   return (
@@ -12,9 +14,12 @@ const ProjectCard = ({ img, id, name, link }) => {
           max: 45,
           scale: 1,
           speed: 450,
+          perspective: 1000,
+          easing: "cubic-bezier(.03,.98,.52,.99)",
+          transition: true,
         }}
       >
-        <a target="_blank" href={link}>
+        <Link to={`/works/${link}`}>
           <div className="project_card_data">
             <h3 className="project_card_name">{name}</h3>
             <div className="project_card_border" />
@@ -23,7 +28,7 @@ const ProjectCard = ({ img, id, name, link }) => {
           <div>
             <img src={img} alt="project_image" className="project_card_img" />
           </div>
-        </a>
+        </Link>
       </Tilt>
     </div>
   );
@@ -36,6 +41,9 @@ const MobileCard = ({ img, id, name, link }) => {
           max: 45,
           scale: 1,
           speed: 450,
+          perspective: 1000,
+          easing: "cubic-bezier(.03,.98,.52,.99)",
+          transition: true,
         }}
       >
         <a href={link} target="_blank">
@@ -58,28 +66,35 @@ const Works = () => {
   return (
     <>
       {/* web */}
-      <div className="work">
+      <div className="work" id="work">
         <div className="work_vl_box">
-          <div className="work_vl" />
-          <div className="work_circle" />
-          <div className="work_vl" />
           <div className="work_vl" />
           <div className="work_vl" />
           <div className="work_vl" />
           <div className="work_vl" />
         </div>
+
         <div className="work_box">
-          <div id="web" />
-          <p className="work_name">
-            Work <span>{"/>"}</span>
-          </p>
-          <h2 className="work_h2">Selected web, mobile, video projects....</h2>
+          <Fade left>
+            <div id="web" />
+            <p className="work_name">
+              <div className="work_circle" />
+              Work <span>{"/>"}</span>
+            </p>
+            <h2 className="work_h2">
+              Selected web, mobile, video projects....
+            </h2>
+          </Fade>
+
           <div className="work_projects">
             {projects.map((project, index) => (
               <ProjectCard
                 key={`project-${index}`}
                 index={index}
-                {...project}
+                img={project.img}
+                id={project.id}
+                name={project.name}
+                link={project.link}
               />
             ))}
           </div>
@@ -90,22 +105,22 @@ const Works = () => {
       <div className="work">
         <div className="work_vl_box">
           <div className="work_vl" />
-          <div className="work_circle" />
           <div className="work_vl" />
-          <div className="work_vl" />
-          <div className="work_vl" />
-          <div className="work_vl_mobile" />
-          <div className="work_vl_mobile" />
+          <div className="work_vl_1" />
         </div>
+
         <div className="work_box">
-          <div id="mobile" />
-          <p className="work_name">
-            Mobile <span>{"/>"}</span>
-          </p>
-          <h2 className="work_h2">Check my mobile work projects....</h2>
+          <Fade left>
+            <div id="mobile" />
+            <p className="work_name">
+              <div className="work_circle" />
+              APPS <span>{"/>"}</span>
+            </p>
+            <h2 className="work_h2">Check my mobile work projects....</h2>
+          </Fade>
           <div className="work_projects">
             {mobile.map((project, index) => (
-              <MobileCard key={`project-${index}`} index={index} {...project} />
+              <MobileCard key={project.name} index={index} {...project} />
             ))}
           </div>
         </div>
