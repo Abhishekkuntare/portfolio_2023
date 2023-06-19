@@ -1,9 +1,13 @@
 import React from "react";
 import { BsArrowUp } from "react-icons/bs";
-
+import sound from "../assets/sound.mp3";
 const TopDown = () => {
+  const handleSound = () => {
+    new Audio(sound).play();
+  };
+
   return (
-    <a href="#">
+    <a onClick={() => handleSound()} href="#">
       <div
         style={{
           display: "flex",

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Header.css";
 
-const MobileMenu = ({ open, setOpen }) => {
+const MobileMenu = ({ setOpen, toggleMusic, isMusic, FaPause, FaMusic }) => {
   const [start, setStart] = useState("#ffffff80");
   const [work, setWork] = useState("#ffffff80");
   const [lab, setLab] = useState("#ffffff80");
@@ -49,6 +49,13 @@ const MobileMenu = ({ open, setOpen }) => {
   };
   return (
     <div className="mobileMenu">
+      <button className="music" onClick={toggleMusic}>
+        {isMusic ? (
+          <FaPause size={20} color="white" />
+        ) : (
+          <FaMusic size={20} color="white" />
+        )}
+      </button>
       <a href="#start">
         <ul
           style={{ color: start }}

@@ -60,7 +60,7 @@
 .mobile_img {
   z-index: 100;
   height: 400px;
-  width: 300px;
+  width: 270px;
   -webkit-box-shadow: 28px 30px 5px 3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 28px 30px 5px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 28px 30px 5px 3px rgba(0, 0, 0, 0.5);
@@ -183,13 +183,14 @@
   }
 }
 @media screen and (max-width: 675px) {
+
   .work_vl_box {
     margin-left: 20px;
   }
   .project_card_data:hover{
     transform: translateY(10px);
-
   }
+
 
   .project_card_name {
     font-size: 20px;
@@ -204,10 +205,16 @@
     font-size: 130px;
   }
   .project_card_img {
+    filter: none;
+    transition: all 0.3 ease-in-out;
     width: 300px;
     margin-top: 20px;
     margin-left: 20px;
   }
+
+
+ 
+ 
   .project_card {
     width: 330px;
     margin-right: 0px;

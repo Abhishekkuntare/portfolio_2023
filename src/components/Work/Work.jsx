@@ -46,8 +46,7 @@ const MobileCard = ({ img, id, name, link }) => {
           transition: true,
         }}
       >
-        <a href={link} target="_blank">
-          {" "}
+        <Link to={`/works/${link}`}>
           <div className="project_card_data">
             <h3 className="project_card_name">{name}</h3>
             <div className="project_card_border" />
@@ -56,7 +55,7 @@ const MobileCard = ({ img, id, name, link }) => {
           <div>
             <img src={img} alt="project_image" className="mobile_img" />
           </div>
-        </a>
+        </Link>
       </Tilt>
     </div>
   );

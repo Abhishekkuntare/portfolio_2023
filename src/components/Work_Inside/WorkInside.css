@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .work_inside_left_icon {
   margin-left: 35px;

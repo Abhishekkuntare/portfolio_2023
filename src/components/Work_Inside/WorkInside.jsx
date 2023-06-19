@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../../constants/work_inside_data";
 import "./WorkInside.css";
-
+import sound from "../../assets/sound.mp3";
 import { HiArrowLongLeft } from "react-icons/hi2";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { useState } from "react";
@@ -27,6 +27,10 @@ const WorkInside = () => {
     setIsHovering(false);
   };
 
+  const sound1 = () => {
+    new Audio(sound).play();
+  };
+
   return (
     <div className="work_inside">
       <div className="work_inside_image">
@@ -45,6 +49,7 @@ const WorkInside = () => {
               className="work_inside_left_icon"
               onMouseOver={handleMouseOver}
               onMouseOut={handleMouseOut}
+              onClick={() => sound1()}
             >
               <HiArrowLongLeft />
               {isHovering && (

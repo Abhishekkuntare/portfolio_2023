@@ -72,6 +72,34 @@ import ca4 from "../assets/works/ca/ca4.png";
 import ca5 from "../assets/works/ca/ca5.png";
 import ca6 from "../assets/works/ca/ca6.png";
 
+//mobiles
+import fo1 from "../assets/app/food/fo1.jpg";
+import fo2 from "../assets/app/food/fo2.jpg";
+import fo3 from "../assets/app/food/fo3.jpg";
+import fo4 from "../assets/app/food/fo4.jpg";
+import fo5 from "../assets/app/food/fo5.jpg";
+import fo6 from "../assets/app/food/fo6.jpg";
+import fo7 from "../assets/app/food/fo7.jpg";
+import fo8 from "../assets/app/food/fo8.jpg";
+
+import to1 from "../assets/app/todo/to1.jpg";
+import to2 from "../assets/app/todo/to2.jpg";
+import to3 from "../assets/app/todo/to3.jpg";
+import to4 from "../assets/app/todo/to4.jpg";
+import to5 from "../assets/app/todo/to5.jpg";
+import to6 from "../assets/app/todo/to6.jpg";
+import to7 from "../assets/app/todo/to1.jpg";
+import to8 from "../assets/app/todo/to2.jpg";
+
+import cry1 from "../assets/app/cryptopro/cry1.png";
+import cry2 from "../assets/app/cryptopro/cry2.png";
+import cry3 from "../assets/app/cryptopro/cry3.png";
+import cry4 from "../assets/app/cryptopro/cry4.png";
+import cry5 from "../assets/app/cryptopro/cry5.png";
+import cry6 from "../assets/app/cryptopro/cry1.png";
+import cry7 from "../assets/app/cryptopro/cry2.png";
+import cry8 from "../assets/app/cryptopro/cry3.png";
+
 const projects = [
   {
     id: 0,
@@ -237,6 +265,59 @@ const projects = [
     title: "Carnival (Social Media)",
     desc: "Carnival is the social media app which is used to create the account and add posts,comments,likes on that posts by the user.This is similar to another social media apps.Yeah the UI/UX is very basic i know because i deeply work on the backend part thats why. Make sure you like it..",
     website: "https://carnivall.netlify.app/",
+    prev: "/",
+  },
+
+  //mobiles ssss
+  {
+    link: "cryptopronef",
+    id: 0,
+    img1: cry1,
+    img2: cry2,
+    img3: cry3,
+    img4: cry4,
+    img5: cry5,
+    img6: cry6,
+    img7: cry7,
+    img8: cry8,
+    stack: "#React Native,#Expo,#Animations,#Github",
+    title: "Crypto-Pronef",
+    desc: "Introducing CryptoPronef, the ultimate app for cryptocurrency enthusiasts and investors. Whether you're a seasoned trader or a curious beginner, CryptoPronef provides a comprehensive suite of features and tools to help you navigate the dynamic world of cryptocurrencies. Stay up-to-date with market trends, track your portfolio, and make informed investment decisions with confidence.",
+    website: "https://github.com/Abhishekkuntare/ReactNativeNFTApp",
+    prev: "/",
+  },
+  {
+    link: "todo",
+    id: 1,
+    img1: to1,
+    img2: to2,
+    img3: to3,
+    img4: to4,
+    img5: to5,
+    img6: to6,
+    img7: to7,
+    img8: to8,
+    stack: "#React Native,#Animations,#Expo,#Github",
+    title: "To-Do App ",
+    desc: "Introducing our powerful and intuitive React Native Todo app, designed to help you stay organized, increase productivity, and achieve your goals. With our app, you can effectively manage tasks, prioritize your activities, and never let important deadlines slip through the cracks. Say goodbye to scattered sticky notes and overwhelming to-do lists  our app has got you covered. Here are the key features of our Todo app:..",
+    website: "https://github.com/Abhishekkuntare/Reactnative_app_todo",
+    prev: "/",
+  },
+  {
+    link: "foodie",
+    id: 2,
+    img1: fo1,
+    img2: fo2,
+    img3: fo3,
+    img4: fo4,
+    img5: fo5,
+    img6: fo6,
+    img7: fo7,
+    img8: fo8,
+    stack: "#React Native,#APIs,#Redux,#Expo",
+    title: "Foodie (App)",
+    desc: "Introducing our innovative foodie app, the ultimate solution for all your culinary needs. With our app, you'll embark on a delightful journey through the world of gastronomy, conveniently accessible from the palm of your hand. Whether you're a seasoned chef, a novice cook, or someone who simply appreciates good food, our app has something to offer everyone. Discover a wide range of features designed to enhance your culinary experience. From recipe.",
+    website: "https://github.com/Abhishekkuntare/Reactnative_food_app",
     prev: "/",
   },
 ];
