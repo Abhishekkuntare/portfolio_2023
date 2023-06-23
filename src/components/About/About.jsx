@@ -301,6 +301,50 @@ const About = () => {
                 <span className="aboutdata_span">{"}"}</span>
               </div>
             </Fade>
+
+            <Fade left>
+              <div className="row_1">
+                <p className="aboutdata_p hover">
+                  int main () {"{"} <br />
+                  <span className="aboutdata_span">
+                    AbhishekKuntare AK {";"}
+                  </span>
+                </p>
+              </div>
+            </Fade>
+
+            <Fade left>
+              <div className="comment">
+                <p className="aboutdata_p comment">
+                  <span className="dot">....</span>// If you don't chase it.{" "}
+                </p>
+                <p className="aboutdata_p comment">
+                  <span className="dot">...</span>// Just loose it !
+                </p>
+              </div>
+            </Fade>
+
+            <Fade left>
+              <div className="row_1">
+                <p className="color_call2 ">
+                  AK.workExperience(){";"} <br />
+                  <span className="color_call">AK.education(){";"}</span> <br />
+                  <span className="color_call3">AK.skills(){";"}</span>
+                </p>
+              </div>
+            </Fade>
+
+            <Fade left>
+              <div className="row_1">
+                <p className="aboutdata_p hover">return 0{";"}</p>
+              </div>
+            </Fade>
+
+            <Fade left>
+              <div className="row26 ">
+                <span className="aboutdata_span">{"}"}</span>
+              </div>
+            </Fade>
           </div>
         </div>
       </div>

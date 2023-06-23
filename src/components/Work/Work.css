@@ -150,7 +150,7 @@
 }
 .work_vl {
   border-left: 2px solid #5918df;
-  height: 553px;
+  height: 573px;
   width: 1px;
 }
 .work_vl_1 {
@@ -196,7 +196,7 @@
     font-size: 20px;
   }
   .work_vl {
-    height: 820px;
+    height: 830px;
   }
   #web:before {
     font-size: 130px;
@@ -247,8 +247,11 @@
     border-left: 2px solid #5918df;
   }
   .mobile_img{
+    border-radius: 10px;
     height: 390px;
     width: 250px;
+    filter: none;
+    transition: all 0.3 ease-in-out;
   }
 }
 @media screen and (max-width: 363px) {

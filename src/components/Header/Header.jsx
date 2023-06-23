@@ -127,27 +127,36 @@ const Header = () => {
         </div>
         <div className="header_menu">
           {open ? (
-            <ImCross color="white" size={25} onClick={() => setOpen(!open)} />
+            <ImCross
+              color="white"
+              size={25}
+              onClick={() => {
+                setOpen(!open);
+                sound1();
+              }}
+            />
           ) : (
             <HiMenuAlt4
               color="white"
               size={35}
-              onClick={() => setOpen(!open)}
+              onClick={() => {
+                setOpen(!open);
+                sound1();
+              }}
             />
           )}
         </div>
       </div>
-      <div data-aos="fade-down">
-        {open && (
-          <MobileMenu
-            setOpen={setOpen}
-            toggleMusic={toggleMusic}
-            isMusic={isMusic}
-            FaPause={FaPause}
-            FaMusic={FaMusic}
-          />
-        )}
-      </div>
+      {open && (
+        <MobileMenu
+          sound1={sound1}
+          setOpen={setOpen}
+          toggleMusic={toggleMusic}
+          isMusic={isMusic}
+          FaPause={FaPause}
+          FaMusic={FaMusic}
+        />
+      )}
     </>
   );
 };

@@ -1,8 +1,24 @@
 .about {
   background-color: #14121c;
-  height: 164vh;
+  height: 194vh;
 }
-
+.color_call{
+  color: #FCFCD4;
+  font-weight: 300;
+  font-size: 16px;
+}
+.color_call3{
+  color: #FCFCD4;
+  font-weight: 300;
+  font-size: 16px;
+}
+.color_call2{
+  margin-top: 24.1px;
+  font-weight: 300;
+  color: #FCFCD4;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+}
 .about_box {
   margin-left: 200px;
   padding-top: 30px;
@@ -41,7 +57,7 @@
 }
 .about_vl {
   border-left: 2px solid #5918df;
-  height: 1090px;
+  height: 1365px;
   width: 1px;
 }
 .about_circle {
@@ -126,7 +142,7 @@
   }
   .about_vl_mobile{
     border-left: 2px solid #5918df;
-    height: 275px;
+    height: 305px;
     width: 1px;
   }
   .about_circle

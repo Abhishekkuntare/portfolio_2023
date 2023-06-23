@@ -81,6 +81,7 @@ ul:hover {
 }
 
 .mobileMenu {
+  box-shadow: rgba(6, 42, 249, 0.56) 0px 22px 70px 4px;
   top: 0;
   position: fixed;
   background-color: #0e0c16;

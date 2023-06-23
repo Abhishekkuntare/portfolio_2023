@@ -2,7 +2,14 @@ import React from "react";
 import { useState } from "react";
 import "./Header.css";
 
-const MobileMenu = ({ setOpen, toggleMusic, isMusic, FaPause, FaMusic }) => {
+const MobileMenu = ({
+  sound1,
+  setOpen,
+  toggleMusic,
+  isMusic,
+  FaPause,
+  FaMusic,
+}) => {
   const [start, setStart] = useState("#ffffff80");
   const [work, setWork] = useState("#ffffff80");
   const [lab, setLab] = useState("#ffffff80");
@@ -56,7 +63,7 @@ const MobileMenu = ({ setOpen, toggleMusic, isMusic, FaPause, FaMusic }) => {
           <FaMusic size={20} color="white" />
         )}
       </button>
-      <a href="#start">
+      <a href="#start" onClick={() => sound1()}>
         <ul
           style={{ color: start }}
           onClick={() => {
@@ -67,7 +74,7 @@ const MobileMenu = ({ setOpen, toggleMusic, isMusic, FaPause, FaMusic }) => {
           Start <span className="header_options_01">{"/>"}</span>
         </ul>
       </a>
-      <a href="#work">
+      <a href="#work" onClick={() => sound1()}>
         {" "}
         <ul
           style={{ color: work }}
@@ -79,7 +86,7 @@ const MobileMenu = ({ setOpen, toggleMusic, isMusic, FaPause, FaMusic }) => {
           Work <span className="header_options_01">{"/>"}</span>
         </ul>
       </a>
-      <a href="#lab">
+      <a href="#lab" onClick={() => sound1()}>
         {" "}
         <ul
           style={{ color: lab }}
@@ -91,7 +98,7 @@ const MobileMenu = ({ setOpen, toggleMusic, isMusic, FaPause, FaMusic }) => {
           Lab <span className="header_options_01">{"/>"}</span>
         </ul>
       </a>
-      <a href="#about">
+      <a href="#about" onClick={() => sound1()}>
         {" "}
         <ul
           style={{ color: about }}
@@ -103,7 +110,7 @@ const MobileMenu = ({ setOpen, toggleMusic, isMusic, FaPause, FaMusic }) => {
           About <span className="header_options_01">{"/>"}</span>
         </ul>
       </a>
-      <a href="#contact">
+      <a href="#contact" onClick={() => sound1()}>
         {" "}
         <ul
           style={{ color: contact }}

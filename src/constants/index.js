@@ -16,24 +16,28 @@ const projects = [
     id: 0,
     name: "Amba Motors - (Garage)",
     link: "ambamotors",
+    category: "mernbackendfullstack",
   },
   {
     img: img2,
     id: 1,
     name: "Made by me - ",
     link: "madebyme",
+    category: "mernbackendfullstack",
   },
   {
     img: img11,
     id: 2,
     name: "Carnival (Social media)",
     link: "carnival",
+    category: "mernbackendfullstack",
   },
   {
     img: img9,
     id: 3,
     name: "Persistence(Employee Management System)",
     link: "persistence",
+    category: "fullstacksqlbackend",
   },
 
   {
@@ -41,36 +45,42 @@ const projects = [
     id: 4,
     name: "Fortnite | Create, Play ,Build ",
     link: "fornite",
+    category: "frontend",
   },
   {
     img: img4,
     id: 5,
     name: "Disney Plus (India)",
     link: "disneyplus",
+    category: "frontend",
   },
   {
     img: img5,
     id: 6,
     name: "Automobili | Lamborghini ",
     link: "lamborghini",
+    category: "frontend",
   },
   {
     img: img6,
     id: 7,
     name: "Xcrypto ",
     link: "xcrypto",
+    category: "frontendapi",
   },
   {
     img: img7,
     id: 8,
     name: "Netflix - Watch TV Shows Online",
     link: "netflix",
+    category: "frontend",
   },
   {
     img: img8,
     id: 9,
     name: "Pokemon",
     link: "pokemon",
+    category: "frontendapi",
   },
 
   {
@@ -78,6 +88,7 @@ const projects = [
     id: 10,
     name: "Tesla: Electric Cars, Solar",
     link: "tesla",
+    category: "frontend",
   },
 ];
 
